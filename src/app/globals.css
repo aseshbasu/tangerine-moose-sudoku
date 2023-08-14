@@ -22,3 +22,32 @@ body {
       -moz-appearance: textfield !important;
     }
  }
+
+
+
+.sudoku-grid {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  /* gap: 5px; */
+  border: 2px solid #333;
+  max-width: 420px; 
+  padding: 15px;
+  line-height: 5px;
+}
+
+.sudoku-cell {
+  /* margin: 10px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+  font-size: 1.5rem;
+  border: 1px solid #6fb5de;
+  border-width: 15px;
+  cursor: pointer;
+}
+
+.sudoku-cell:hover {
+  background-color: #774444;
+}
