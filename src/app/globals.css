@@ -24,7 +24,6 @@ body {
  }
 
 
-
 .sudoku-grid {
   display: grid;
   grid-template-columns: repeat(9, 1fr);
@@ -48,6 +47,3 @@ body {
   cursor: pointer;
 }
 
-.sudoku-cell:hover {
-  background-color: #774444;
-}
